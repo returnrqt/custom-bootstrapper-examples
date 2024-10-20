@@ -1,3 +1,7 @@
 <BloxstrapCustomBootstrapper Version="0" Height="200" Width="500">
-	<Image Source="theme://tenor.gif" IsAnimated="True" />
+	<Button Name="CancelButton" HorizontalAlignment="Center" Height="100" Width="100">
+		<Content>
+			<Image Source="theme://tenor.gif" IsAnimated="True" Stretch="Fill" />
+		</Content>
+	</Button>
 </BloxstrapCustomBootstrapper>
