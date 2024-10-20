@@ -2,20 +2,20 @@
 	<TitleBar Title="Custom Bootstrapper Example" />
 	<TextBlock Text="It works!" Width="400" HorizontalAlignment="Center" Margin="0,100,0,0" Foreground="{TextFillColorPrimaryBrush}" />
 	<Image Height="100" Width="100" Source="{Icon}" Margin="0,10,0,0" HorizontalAlignment="Center">
-		<RenderTransform>
+		<Image.RenderTransform>
 			<SkewTransform AngleX="19" AngleY="23" />
-		</RenderTransform>
+		</Image.RenderTransform>
 	</Image>
 	<TextBlock Name="StatusText" Width="400" HorizontalAlignment="Center" Margin="0,150,0,0" Foreground="{TextFillColorPrimaryBrush}" />
 	<ProgressBar IsIndeterminate="True" Height="10" Width="400" HorizontalAlignment="Center" Margin="0,150,0,0" ZIndex="123">
-		<RenderTransform>
+		<ProgressBar.RenderTransform>
 			<RotateTransform Angle="90" />
-		</RenderTransform>
+		</ProgressBar.RenderTransform>
 	</ProgressBar>
 	<ProgressBar IsIndeterminate="True" Height="10" Width="400" HorizontalAlignment="Center" Margin="0,160,0,0">
-		<RenderTransform>
+		<ProgressBar.RenderTransform>
 			<SkewTransform AngleX="19" AngleY="23" />
-		</RenderTransform>
+		</ProgressBar.RenderTransform>
 	</ProgressBar>
 	<ProgressBar IsIndeterminate="True" Height="10" Width="400" HorizontalAlignment="Center" Margin="0,170,0,0" />
 	<ProgressBar IsIndeterminate="True" Height="10" Width="400" HorizontalAlignment="Center" Margin="0,180,0,0" />
