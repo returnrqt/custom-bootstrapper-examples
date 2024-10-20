@@ -2,26 +2,38 @@
 	<TitleBar Title="GreenStrap" />
 	<Image Height="1000" Width="1000" Source="theme://bup.png" Margin="0,-40,0,0" />
 	<Image Height="100" Width="100" Source="{Icon}" Margin="0,10,0,0" HorizontalAlignment="Center">
-		<SkewTransform AngleX="59" AngleY="219" CenterY="50" CenterX="30" />
+		<RenderTransform>
+			<SkewTransform AngleX="59" AngleY="219" CenterY="50" CenterX="30" />
+		</RenderTransform>
 	</Image>
 	<TextBlock Text="Welcome to true customisation. We're green here!"
 		FontSize="15"
 		FontWeight="Bold"
 		Width="400" HorizontalAlignment="Center" Margin="0,100,0,0" Foreground="{TextFillColorPrimaryBrush}">
-		<ScaleTransform ScaleY="4" CenterY="40" />
-		<RotateTransform Angle="10" />
+		<RenderTransform>
+			<ScaleTransform ScaleY="4" CenterY="40" />
+			<RotateTransform Angle="10" />
+		</RenderTransform>
 	</TextBlock>
 	<TextBlock Name="StatusText" FontStyle="Oblique" Width="400" HorizontalAlignment="Center" Margin="0,150,0,0" Foreground="{TextFillColorPrimaryBrush}">
-		<RotateTransform Angle="180" CenterX="150" CenterY="50" />
+		<RenderTransform>
+			<RotateTransform Angle="180" CenterX="150" CenterY="50" />
+		</RenderTransform>
 	</TextBlock>
 	<ProgressBar IsIndeterminate="True" Height="10" Width="400" HorizontalAlignment="Center" Margin="0,0,0,0" ZIndex="123">
-		<RotateTransform Angle="90" />
+		<RenderTransform>
+			<RotateTransform Angle="90" />
+		</RenderTransform>
 	</ProgressBar>
 	<ProgressBar Name="PrimaryProgressBar" Height="10" Width="400" HorizontalAlignment="Center" Margin="0,200,0,0">
-		<SkewTransform AngleX="120" AngleY="20" CenterX="200" />
+		<RenderTransform>
+			<SkewTransform AngleX="120" AngleY="20" CenterX="200" />
+		</RenderTransform>
 	</ProgressBar>
 	<Button Name="CancelButton" Text="Cancel" Height="40" Width="100" HorizontalAlignment="Center" Margin="0,225,0,0" BorderBrush="Blue" BorderThickness="4">
-		<RotateTransform Angle="50" CenterX="100" />
-		<ScaleTransform ScaleY="4" CenterY="0" />
+		<RenderTransform>
+			<RotateTransform Angle="50" CenterX="100" />
+			<ScaleTransform ScaleY="4" CenterY="0" />
+		</RenderTransform>
 	</Button>
 </BloxstrapCustomBootstrapper>
