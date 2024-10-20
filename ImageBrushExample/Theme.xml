@@ -1,0 +1,5 @@
+<BloxstrapCustomBootstrapper Version="0" Height="200" Width="500">
+	<BloxstrapCustomBootstrapper.Background>
+		<ImageBrush ImageSource="{Icon}" TileMode="Tile" ViewportUnits="Absolute" Viewport="0,0,64,64" />
+	</BloxstrapCustomBootstrapper.Background>
+</BloxstrapCustomBootstrapper>
