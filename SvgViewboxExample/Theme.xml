@@ -1,0 +1,5 @@
+<BloxstrapCustomBootstrapper Version="0" Height="520" Width="500" AllowTransparency="True" Background="Transparent" WindowBackdropType="Disable" WindowCornerPreference="Default">
+	<TitleBar Title="" ShowMinimize="False" ShowClose="False" />
+	<SvgViewbox Source="theme://WARNING!BLAHAJ!.svg" Height="300" Width="300" HorizontalAlignment="Center" VerticalAlignment="Top" />
+	<TextBlock Foreground="Red" FontSize="24" Text="WARNING! BLAHAJ DETECTED IN YOUR AREA!" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,300,0,0" />
+</BloxstrapCustomBootstrapper>

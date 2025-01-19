@@ -1,0 +1,20 @@
+<BloxstrapCustomBootstrapper Version="0" Height="320" Width="500" AllowTransparency="False" WindowBackdropType="Disable" WindowCornerPreference="Default">
+	<Rectangle Height="200" Width="200" VerticalAlignment="Center" HorizontalAlignment="Left">
+		<Rectangle.Fill>
+			<RadialGradientBrush Center="0.5 0.5" ColorInterpolationMode="ScRgbLinearInterpolation">
+				<GradientStop Offset="0" Color="Red" />
+				<GradientStop Offset="0.5" Color="Green" />
+				<GradientStop Offset="1" Color="Blue" />
+			</RadialGradientBrush>
+		</Rectangle.Fill>
+	</Rectangle>
+	<Ellipse Height="200" Width="200" VerticalAlignment="Center" HorizontalAlignment="Right">
+		<Ellipse.Fill>
+			<RadialGradientBrush Center="0.5 0.5" ColorInterpolationMode="ScRgbLinearInterpolation">
+				<GradientStop Offset="0" Color="Red" />
+				<GradientStop Offset="0.5" Color="Green" />
+				<GradientStop Offset="1" Color="Blue" />
+			</RadialGradientBrush>
+		</Ellipse.Fill>
+	</Ellipse>
+</BloxstrapCustomBootstrapper>

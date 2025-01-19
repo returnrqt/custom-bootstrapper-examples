@@ -1,0 +1,3 @@
+<BloxstrapCustomBootstrapper Version="0" Height="320" Width="500" AllowTransparency="False" WindowBackdropType="Disable" WindowCornerPreference="Default">
+	<MediaElement Source="theme://Meme.mov" VerticalAlignment="Center" HorizontalAlignment="Center" LoadedBehaviour="Play" UnloadedBehaviour="Close" />
+</BloxstrapCustomBootstrapper>

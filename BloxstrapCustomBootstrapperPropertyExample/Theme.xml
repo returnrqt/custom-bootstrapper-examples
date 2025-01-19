@@ -1,0 +1,12 @@
+<!-- WindowBackdropType sets the backdrop type of the window
+	 Allow Transparency allows the window to be transparent
+	 WindowCornerPreference sets the corner type of the window (i.e. if you want the window corners to be round or not) -->
+<!-- Please note that WPF makes transparent elements click-through. To circumvent this, give the element a color.
+	 If you want that element to be transparent and be clickable, give it a color and set its opacity to something very low. -->
+<BloxstrapCustomBootstrapper Version="0" Height="320" Width="500" AllowTransparency="True" WindowBackdropType="Acrylic" WindowCornerPreference="DoNotRound">
+	<TitleBar Title="" Background="White" Opacity="0.01" ShowMinimize="True" ShowClose="True" />
+	<Image Height="100" Width="100" Source="{Icon}" Margin="0,10,0,0" HorizontalAlignment="Center" />
+	<TextBlock Name="StatusText" Width="400" HorizontalAlignment="Center" Margin="0,150,0,0" Foreground="{TextFillColorPrimaryBrush}" />
+	<ProgressBar Name="PrimaryProgressBar" Height="10" Width="400" HorizontalAlignment="Center" Margin="0,200,0,0" />
+	<Button Name="CancelButton" Content="Cancel" Height="30" Width="100" HorizontalAlignment="Center" Margin="0,225,0,0" />
+</BloxstrapCustomBootstrapper>
